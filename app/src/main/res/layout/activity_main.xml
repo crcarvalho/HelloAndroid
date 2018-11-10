@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".ui.main.MainActivity">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -14,17 +14,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context=".ui.main.MainActivity">
 
         <TextView
             style="@style/label_titulo"
             android:text="@string/label_dados_cliente" />
 
-        <EditText
-
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Informe o nome do cliente" />
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            tools:text="Fulano"
+            style="@style/margin_lateral"
+            android:id="@+id/tvNome"
+            />
+
 
         <TextView
             style="@style/label_titulo"

@@ -40,4 +40,9 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+    <style name="button_background">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/botao_personalizado</item>
+    </style>
+
 </resources>

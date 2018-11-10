@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloAndroid</string>
+    <string name="app_name">Quero Pizza!</string>
     <string name="label_dados_cliente">Dados do cliente</string>
     <string name="label_escolha">Escolha a(s) pizza(s)</string>
     <string name="label_atum">Atum</string>
@@ -17,4 +17,7 @@
     <string name="fiado">Fiado</string>
     <string name="cupom">Cupom</string>
     <string name="label_button_calcular">Calcular</string>
+
+    <string name="saudacao">Olá %1$s. seu número de contato é %2$s.</string>
+
 </resources>
